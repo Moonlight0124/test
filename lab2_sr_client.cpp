@@ -50,8 +50,13 @@ void printTips() {
 	printf("| -quit to exit client |\n");
 	printf("| -download |\n");
 	printf("| -upload |\n");
-	printf("gitgit");
+<<<<<<< HEAD
+=======
+	printf("test-git");
+>>>>>>> C4
 	printf("*****************************************\n");
+	
+	printf("gitgit");
 }
 //************************************
 // Method: lossInLossRatio
