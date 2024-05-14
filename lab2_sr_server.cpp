@@ -119,6 +119,7 @@ void SaveFile(char* data)
 	fwrite(data, sizeof(char), strlen(data), fp);
 	printf("文件已保存!\n");
 	printf("修改内容！\n");
+	printf("gitgit")
 	fclose(fp);
 }
 

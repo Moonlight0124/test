@@ -50,6 +50,7 @@ void printTips() {
 	printf("| -quit to exit client |\n");
 	printf("| -download |\n");
 	printf("| -upload |\n");
+	printf("gitgit");
 	printf("*****************************************\n");
 }
 //************************************
