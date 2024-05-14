@@ -32,6 +32,7 @@ struct send {
 };	//SR协议为每一个发送窗口的数据帧维护一个计时器。
 struct send SendWindow[SEND_WIND_SIZE];
 
+
 //接收窗口的定义
 typedef struct  rcvWindow {
 	bool rcv;	//是否收到了数据
@@ -117,6 +118,7 @@ void SaveFile(char* data)
 	FILE* fp = fopen("./UploadFile.txt", "w");
 	fwrite(data, sizeof(char), strlen(data), fp);
 	printf("文件已保存!\n");
+	printf("修改内容！\n");
 	fclose(fp);
 }
 
